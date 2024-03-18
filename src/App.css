@@ -9,6 +9,9 @@
   height: 100%;
 }
 
+.App-icons{
+  font-size: 30px;
+}
 .App a {
   color:#61dafb;
   text-decoration: none;
