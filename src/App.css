@@ -9,12 +9,25 @@
   height: 100%;
 }
 
+.App li {
+  font-size: 20px;
+}
 .App-icons{
   font-size: 30px;
 }
+
+.App-title{
+  font-size: 25px;
+}
+
 .App a {
   color:#61dafb;
   text-decoration: none;
+}
+
+.App-companies {
+  font-size: 18px;
+  text-align: justify;
 }
 
 body {
@@ -25,7 +38,7 @@ body {
 }
 
 .leftBox {
-  width: 400px;
+  width: 700px;
   padding:50px;
    border-top: 1px solid #61dafb;
    border-left: 1px solid #61dafb;
@@ -33,11 +46,12 @@ body {
 }
 
 .rightBox {
-  width: 200px;
+  width: 300px;
   padding:50px;
   border-right: 1px solid #61dafb;
    border-bottom: 1px solid #61dafb;
   border-radius: 20;
+  font-size: 14px;
 }
 .App-logo {
   height: 40vmin;
