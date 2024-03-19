@@ -21,14 +21,11 @@ function App() {
           </div>
           <h1>Clients</h1>
           <div className="App-companies">
-            Wipro, Bangalore | Besant Technologies, Bangalore | Oxford
-            College, Bangalore | Elewayte, Bangalore | Zognu Technologies,
-            Hyderabad | NetRichh IT Solutions, Hyderabad | Cloud Soft
-            Solutions, Hyderabad | Vidya Academy, Kerala | Aptech Computer
-            Education, Kerala | First Computers, Bangalore | Imarticus
-            Learning, Hyderabad | Blackbuck, Hyderabad | Malla Reddy
-            University, Hyderabad | GoCinQ, Hyderabad | Lyros Technologies,
-            Hyderabad | Student Tribe, Hyderabad | CareerX Club, Hyderabad
+            Wipro | Besant Technologies | Oxford College | Elewayte | Zognu
+            Technologies | NetRichh IT Solutions | Cloud Soft Solutions | Vidya
+            Academy | Aptech Computer Education | First Computers | Imarticus
+            Learning | Blackbuck | Malla Reddy University | GoCinQ | Lyros
+            Technologies | Student Tribe | CareerX Club
           </div>
         </div>
         <div className="rightBox">
