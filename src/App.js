@@ -31,10 +31,10 @@ function App() {
         <div className="rightBox">
           <h1>Projects</h1>
           <li>
-            <a href="https://nairsite.github.io/ecomm-react">E-commerce</a>
+            <a href="https://nairsite.github.io/ecomm-react">ecomm-react</a>
           </li>
           <li>
-            <a href="https://nairsite.github.io/social-react">Social Media</a>
+            <a href="https://nairsite.github.io/social-react">social-react</a>
           </li>
         </div>
       </div>
