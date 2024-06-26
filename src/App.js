@@ -1,5 +1,5 @@
 import "./App.css";
-import { FaGithubSquare, FaLinkedin, FaYoutubeSquare } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, FaYoutubeSquare, FaFacebook} from "react-icons/fa";
 function App() {
   return (
     <>
@@ -11,15 +11,26 @@ function App() {
             </div>
             <div>
               <h1>
-                <a href="https://github.com/nairsite">
+                <a href="https://github.com/praveannair" target="_blank">
                   <FaGithubSquare />
                 </a>
-                <a href="https://in.linkedin.com/in/nairprv">
+                <a href="https://in.linkedin.com/in/nairprv" target="_blank">
                   <FaLinkedin />
                 </a>
-                <a href="https://www.youtube.com/@praveen-nair">
+                <a href="https://www.youtube.com/@praveannair" target="_blank">
                   <FaYoutubeSquare />
                 </a>
+                <a href="https://www.facebook.com/profile.php?id=61561658270238" target="_blank">
+                  <FaFacebookSquare  />
+                  
+                </a>
+                <a href="https://www.instagram.com/praveannair/" target="_blank">
+                  <FaInstagramSquare  />
+                </a>
+                <a href="https://x.com/praveannair" target="_blank">
+                  <FaTwitterSquare   />
+                </a>
+                
               </h1>
             </div>
           </div>
