@@ -7,7 +7,7 @@ function App() {
         <div className="leftBox">
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div>
-              <h1>Praveen Nair</h1>
+              <h1>Pravean Nair</h1>
             </div>
             <div>
               <h1>
