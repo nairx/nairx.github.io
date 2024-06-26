@@ -1,5 +1,5 @@
 import "./App.css";
-import { FaGithubSquare, FaLinkedin, FaYoutubeSquare, FaFacebook} from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, FaYoutubeSquare, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare} from "react-icons/fa";
 function App() {
   return (
     <>
