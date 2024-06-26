@@ -11,23 +11,23 @@ function App() {
             </div>
             <div>
               <h1>
-                <a href="https://github.com/praveannair" target="_blank">
+                <a href="https://github.com/praveannair" target="_blank" rel="noreferrer">
                   <FaGithubSquare />
                 </a>
-                <a href="https://in.linkedin.com/in/nairprv" target="_blank">
+                <a href="https://in.linkedin.com/in/nairprv" target="_blank" rel="noreferrer">
                   <FaLinkedin />
                 </a>
-                <a href="https://www.youtube.com/@praveannair" target="_blank">
+                <a href="https://www.youtube.com/@praveannair" target="_blank" rel="noreferrer">
                   <FaYoutubeSquare />
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61561658270238" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=61561658270238" target="_blank" rel="noreferrer">
                   <FaFacebookSquare  />
                   
                 </a>
-                <a href="https://www.instagram.com/praveannair/" target="_blank">
+                <a href="https://www.instagram.com/praveannair/" target="_blank" rel="noreferrer">
                   <FaInstagramSquare  />
                 </a>
-                <a href="https://x.com/praveannair" target="_blank">
+                <a href="https://x.com/praveannair" target="_blank" rel="noreferrer">
                   <FaTwitterSquare   />
                 </a>
                 
