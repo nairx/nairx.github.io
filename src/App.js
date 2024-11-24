@@ -11,7 +11,7 @@ function App() {
             </div>
             <div>
               <h1>
-                <a href="https://github.com/praveannair" target="_blank" rel="noreferrer">
+                <a href="https://github.com/nairx" target="_blank" rel="noreferrer">
                   <FaGithubSquare />
                 </a>
                 <a href="https://in.linkedin.com/in/nairprv" target="_blank" rel="noreferrer">
