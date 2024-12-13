@@ -81,13 +81,14 @@ export default function App() {
           <h1>Projects</h1>
           <div style={{ display: "flex" }}>
             <div className="box">
-              <h3>Project 1</h3>
+              <h3>E-commerce</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
                 quia nobis eligendi reiciendis. Esse a possimus eum est
                 veritatis aliquid ut eveniet. Et illum odio ut voluptates
                 molestiae? Perspiciatis, ab.
               </p>
+              <a href="https://praveennair.co.in/ecomm-react/">View Project</a>
             </div>
 
             <div className="box">
