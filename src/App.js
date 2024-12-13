@@ -1,71 +1,280 @@
-import "./App.css";
-import { FaGithubSquare, FaLinkedin, FaYoutubeSquare, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare} from "react-icons/fa";
-function App() {
+import React from "react";
+import "./App.css"
+export default function App() {
   return (
     <>
-      <div className="App">
-        <div className="leftBox">
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <div>
-              <h1>Praveen Nair</h1>
-            </div>
-            <div>
-              <h1>
-                <a href="https://github.com/nairx" target="_blank" rel="noreferrer">
-                  <FaGithubSquare />
-                </a>
-                <a href="https://in.linkedin.com/in/nairprv" target="_blank" rel="noreferrer">
-                  <FaLinkedin />
-                </a>
-                <a href="https://www.youtube.com/@praveen-nair" target="_blank" rel="noreferrer">
-                  <FaYoutubeSquare />
-                </a>
-      
-                
-              </h1>
-            </div>
+      <div className="container">
+        <div className="header-row">
+          <div className="box">
+            <h1>Praveen Nair</h1>
           </div>
-          <div className="App-title">MERN Stack Trainer & Developer</div>
-          <p className="App-companies">
-            Over 20 years of experience as Trainer, Application Developer and
-            Project Manager in India and USA. I have primarily worked for Wipro
-            and JP Morgan Chase and currently coach freshers on web development
-            technologies such as Reactjs, Nodejs, Expressjs, MongoDB, MySQL,
-            Bootstrap, CSS, JavaScript and HTML.
-          </p>
-          {/* <br></br>
-          <div className="App-icons">
-            <a href="https://github.com/nairsite">
-              <FaGithubSquare />
-            </a>
-            <a href="https://in.linkedin.com/in/nairprv">
-              <FaLinkedin />
-            </a>
-            <a href="https://www.youtube.com/@praveen-nair">
-              <FaYoutubeSquare />
-            </a>
-          </div> */}
-          <h1>Top Clients</h1>
-          <div className="App-companies">
-            Wipro | Besant Technologies | Oxford College | Elewayte | Zognu
-            Technologies | NetRichh IT Solutions | Cloud Soft Solutions | Vidya
-            Academy | Aptech Computer Education | First Computers | Imarticus
-            Learning | Blackbuck | Malla Reddy University | GoCinQ | Lyros
-            Technologies | Student Tribe | CareerX Club
+          <div className="box">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#clients">Clients</a>
+              </li>
+              
+              <li>
+                <a href="#students">Students</a>
+              </li>
+
+              <li>
+                <a href="#trainers">Trainers</a>
+              </li>
+
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="rightBox">
+
+        <div className="row" id="home">
+          <div className="flex">
+            <div className="box">
+              <h1>Full Stack Corporate Trainer</h1>
+              <h3>MERN | MEAN | Java | Python</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt neque est nihil ipsum error. Deserunt voluptas
+                explicabo ea eum quasi. Rem nisi molestias quia nesciunt
+                incidunt numquam fugiat perferendis assumenda?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt neque est nihil ipsum error. Deserunt voluptas
+                explicabo ea eum quasi. Rem nisi molestias quia nesciunt
+                incidunt numquam fugiat perferendis assumenda?
+              </p>
+              <button>Register</button>
+              <button>Login</button>
+            </div>
+            <div className="box">
+              <img src="https://picsum.photos/id/1/400/400" alt="Title" />
+            </div>
+          </div>
+        </div>
+
+        <div id="about" className="row" style={{backgroundColor: 'lightcoral'}}>
+          <h1>About</h1>
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
+            optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
+            ipsa veniam deserunt asperiores nesciunt at provident itaque
+            cupiditate vel dolor.
+          </h3>
+          <h2>Skills</h2>
+          <h3>Java, Python, Reactjs</h3>
+          <p>Display the logo of all the technologies you know.</p>
+        </div>
+
+        <div id="projects" className="row" >
           <h1>Projects</h1>
-          <li>
-            <a href="https://nairx.github.io/ecomm-react">ecomm-react</a>
-          </li>
-          <li>
-            <a href="https://nairx.github.io/social-react">social-react</a>
-          </li>
+          <div style={{ display: "flex" }}>
+            <div className="box">
+              <h3>Project 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Project 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Project 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+          </div>
         </div>
+        <div
+          id="clients"
+          className="row"
+          style={{ backgroundColor: "lightblue" }}
+        >
+          <h1>Clients</h1>
+          <div style={{ display: "flex" }}>
+            <div className="box">
+              <h3>Web App Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Mobile App Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Backend Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div
+          id="students"
+          className="row"
+          style={{ backgroundColor: "white" }}
+        >
+          <h1>Students</h1>
+          <div style={{ display: "flex" }}>
+            <div className="box">
+              <h3>Web App Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Mobile App Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Backend Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+          id="trainers"
+          className="row"
+          style={{ backgroundColor: "lightblue" }}
+        >
+          <h1>Trainers</h1>
+          <div style={{ display: "flex" }}>
+            <div className="box">
+              <h3>Web App Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Mobile App Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+
+            <div className="box">
+              <h3>Backend Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+          id="contact"
+          className="row"
+          style={{ backgroundColor: "lightgoldenrodyellow" }}
+        >
+          <h1>Contact</h1>
+          <div style={{ display: "flex" }}>
+            <div className="box">
+              <h3>Contact Form</h3>
+              <p>
+                <input type="text" placeholder="Enter Name" />
+              </p>
+              <p>
+                <input type="email" placeholder="Enter Email" />
+              </p>
+              <p>
+                <textarea
+                  rows="10"
+                  cols="60"
+                  placeholder="Enter message"
+                ></textarea>
+              </p>
+              <button>Send</button>
+            </div>
+
+            <div className="box">
+              <h3>Your/Company Name</h3>
+              <p>
+                <b>Address: </b>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dolorem quia nobis eligendi reiciendis. Esse a
+                possimus eum est veritatis aliquid ut eveniet. Et illum odio ut
+                voluptates molestiae? Perspiciatis, ab.
+              </p>
+              <p>
+                <b>Email Address: </b>sample@email.com
+              </p>
+              <p>
+                <b>Phone Number: </b>+91 343 445 6789
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="footer">@copyright 2024. All rights reserved.</div>
       </div>
     </>
   );
 }
-
-export default App;

@@ -1,89 +1,77 @@
-.App {
-  display: flex;
-  padding: 50px;
-  justify-content: center;
-  /* background-color: #282c34; */
-  color:#61dafb;
-  margin:auto;
-  width: 100%;
+.container {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  scroll-behavior: smooth;
   height: 100%;
 }
 
-.App li {
-  font-size: 20px;
-}
-.App-icons{
-  font-size: 30px;
-}
-
-.App-title{
-  font-size: 25px;
+.header-row {
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
 }
 
-.App a {
-  color:#61dafb;
+.header-row .box {
+  padding: 10px;
+}
+
+.header-row li {
+  display: inline;
+  padding: 5px;
+  font-size: larger;
+}
+
+.header-row a {
   text-decoration: none;
 }
 
-.App-companies {
-  font-size: 18px;
-  text-align: justify;
+.header-row a:hover {
+  text-decoration: underline;
 }
 
-body {
-  background-color: #282c34;;
-  /* background-image: url('../public/bg.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover; */
+.row {
+  padding: 100px;
+  height: 75%;
 }
 
-.leftBox {
-  width: 700px;
-  padding:50px;
-   border-top: 1px solid #61dafb;
-   border-left: 1px solid #61dafb;
-  border-radius: 20;
+.row .box {
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
 }
 
-.rightBox {
-  width: 300px;
-  padding:50px;
-  border-right: 1px solid #61dafb;
-   border-bottom: 1px solid #61dafb;
-  border-radius: 20;
-  font-size: 14px;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer {
+  padding: 20px;
+  margin: 0px;
+  background-color: black;
   color: white;
+  font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  background-color: teal;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box button {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: larger;
 }
