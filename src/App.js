@@ -16,13 +16,13 @@ export default function App() {
               <li>
                 <a href="#about">About</a>
               </li>
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
+              
               <li>
                 <a href="#clients">Clients</a>
               </li>
-
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
              
 
       
@@ -70,6 +70,30 @@ export default function App() {
           <p>Display the logo of all the technologies you know.</p>
         </div>
 
+       
+        <div
+          id="clients"
+          className="row"
+          style={{ backgroundColor: "lightblue" }}
+        >
+          <h1>Clients</h1>
+          <div style={{ display: "flex" }}>
+         
+              1. Wipro, Bangalore 2. Besant Technologies, Bangalore 3. Oxford
+              College, Bangalore 4. Elewayte, Bangalore 5. Zognu Technologies,
+              Hyderabad 6. NetRichh IT Solutions, Hyderabad 7. Cloud Soft
+              Solutions, Hyderabad 8. Vidya Academy, Kerala 9. Aptech Computer
+              Education, Kerala 10. First Computers, Bangalore 11. Imarticus
+              Learning, Hyderabad 12. Blackbucks, Hyderabad 13. Malla Reddy
+              University, Hyderabad 14. GoCinQ, Hyderabad 15. Lyros
+              Technologies, Hyderabad 16. Student Tribe, Hyderabad 17. CareerX
+              Club, Hyderabad 18. Achievers IT, Hyderabad 19. Numeric
+              Technologies, USA 20. Cantilever Labs, Hyderabad 21. Tech Mahindra
+              University, Hyderabad 22. GRIET College, Hyderabad
+            
+          </div>
+        </div>
+
         <div id="projects" className="row">
           <h1>Projects</h1>
           <div style={{ display: "flex" }}>
@@ -107,29 +131,6 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div
-          id="clients"
-          className="row"
-          style={{ backgroundColor: "lightblue" }}
-        >
-          <h1>Clients</h1>
-          <div style={{ display: "flex" }}>
-         
-              1. Wipro, Bangalore 2. Besant Technologies, Bangalore 3. Oxford
-              College, Bangalore 4. Elewayte, Bangalore 5. Zognu Technologies,
-              Hyderabad 6. NetRichh IT Solutions, Hyderabad 7. Cloud Soft
-              Solutions, Hyderabad 8. Vidya Academy, Kerala 9. Aptech Computer
-              Education, Kerala 10. First Computers, Bangalore 11. Imarticus
-              Learning, Hyderabad 12. Blackbucks, Hyderabad 13. Malla Reddy
-              University, Hyderabad 14. GoCinQ, Hyderabad 15. Lyros
-              Technologies, Hyderabad 16. Student Tribe, Hyderabad 17. CareerX
-              Club, Hyderabad 18. Achievers IT, Hyderabad 19. Numeric
-              Technologies, USA 20. Cantilever Labs, Hyderabad 21. Tech Mahindra
-              University, Hyderabad 22. GRIET College, Hyderabad
-            
-          </div>
-        </div>
-
        
         <div
           id="contact"
