@@ -23,9 +23,7 @@ export default function App() {
                 <a href="#clients">Clients</a>
               </li>
 
-              <li>
-                <a href="#students">Students</a>
-              </li>
+             
 
       
 
@@ -44,10 +42,7 @@ export default function App() {
               <p>
                 Over 20 years of experience as Trainer, Application Developer
                 and Project Manager in India and USA. Primarily worked for Wipro
-                and JP Morgan Chase and currently coach freshers on web
-                development technologies such as Reactjs, Nodejs, Expressjs,
-                MongoDB, Java, Python, Django, MySQL, Bootstrap, CSS, JavaScript
-                and HTML.
+                and JP Morgan Chase.
               </p>
               <button>Register</button>
               <button>Login</button>
@@ -132,41 +127,6 @@ export default function App() {
               Technologies, USA 20. Cantilever Labs, Hyderabad 21. Tech Mahindra
               University, Hyderabad 22. GRIET College, Hyderabad
             
-          </div>
-        </div>
-
-        <div id="students" className="row" style={{ backgroundColor: "white" }}>
-          <h1>Students</h1>
-          <div style={{ display: "flex" }}>
-            <div className="box">
-              <h3>Web App Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
-
-            <div className="box">
-              <h3>Mobile App Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
-
-            <div className="box">
-              <h3>Backend Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
           </div>
         </div>
 
