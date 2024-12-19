@@ -27,9 +27,7 @@ export default function App() {
                 <a href="#students">Students</a>
               </li>
 
-              <li>
-                <a href="#trainers">Trainers</a>
-              </li>
+      
 
               <li>
                 <a href="#contact">Contact</a>
@@ -172,45 +170,7 @@ export default function App() {
           </div>
         </div>
 
-        <div
-          id="trainers"
-          className="row"
-          style={{ backgroundColor: "lightblue" }}
-        >
-          <h1>Trainers</h1>
-          <div style={{ display: "flex" }}>
-            <div className="box">
-              <h3>Web App Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
-
-            <div className="box">
-              <h3>Mobile App Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
-
-            <div className="box">
-              <h3>Backend Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
-          </div>
-        </div>
-
+       
         <div
           id="contact"
           className="row"
