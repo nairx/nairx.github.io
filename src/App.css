@@ -75,3 +75,10 @@ button {
   padding: 10px;
   font-size: larger;
 }
+
+.c li {
+padding: 5px;
+margin: 10px;
+font-size: large;
+display: block;
+}

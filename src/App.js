@@ -16,16 +16,13 @@ export default function App() {
               <li>
                 <a href="#about">About</a>
               </li>
-              
+
               <li>
                 <a href="#clients">Clients</a>
               </li>
               <li>
                 <a href="#projects">Projects</a>
               </li>
-             
-
-      
 
               <li>
                 <a href="#contact">Contact</a>
@@ -70,27 +67,47 @@ export default function App() {
           <p>Display the logo of all the technologies you know.</p>
         </div>
 
-       
         <div
           id="clients"
           className="row"
           style={{ backgroundColor: "lightblue" }}
         >
           <h1>Clients</h1>
-          <div style={{ display: "flex" }}>
-         
-              1. Wipro, Bangalore 2. Besant Technologies, Bangalore 3. Oxford
-              College, Bangalore 4. Elewayte, Bangalore 5. Zognu Technologies,
-              Hyderabad 6. NetRichh IT Solutions, Hyderabad 7. Cloud Soft
-              Solutions, Hyderabad 8. Vidya Academy, Kerala 9. Aptech Computer
-              Education, Kerala 10. First Computers, Bangalore 11. Imarticus
-              Learning, Hyderabad 12. Blackbucks, Hyderabad 13. Malla Reddy
-              University, Hyderabad 14. GoCinQ, Hyderabad 15. Lyros
-              Technologies, Hyderabad 16. Student Tribe, Hyderabad 17. CareerX
-              Club, Hyderabad 18. Achievers IT, Hyderabad 19. Numeric
-              Technologies, USA 20. Cantilever Labs, Hyderabad 21. Tech Mahindra
-              University, Hyderabad 22. GRIET College, Hyderabad
-            
+          <div class="c"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              margin: "10px",
+            }}
+          >
+            <div>
+              <li>Wipro, Bangalore</li>
+              <li>Besant Technologies, Bangalore</li>
+              <li>Oxford College, Bangalore</li>
+              <li>Elewayte, Bangalore</li>
+              <li>Zognu Technologies, Hyderabad</li>
+              <li>NetRichh IT Solutions, Hyderabad</li>
+              <li>Cloud Soft Solutions, Hyderabad</li>
+              <li>Vidya Academy, Kerala</li>
+            </div>
+            <div>
+              <li>Aptech Computer Education, Kerala</li>
+              <li>First Computers, Bangalore</li>{" "}
+              <li>Imarticus Learning, Hyderabad</li>
+              <li>Blackbucks, Hyderabad</li>
+              <li> Malla Reddy University, Hyderabad</li>
+              <li>GoCinQ, Hyderabad </li>
+              <li>Lyros Technologies, Hyderabad</li>
+              <li>Student Tribe, Hyderabad</li>
+            </div>
+            <div>
+              <li>CareerX Club, Hyderabad</li>
+              <li>Achievers IT, Hyderabad</li>
+              <li>Numeric Technologies, USA</li>
+              <li>Cantilever Labs, Hyderabad</li>
+              <li>Mahindra University, Hyderabad</li>
+              <li>GRIET College, Hyderabad</li>
+            </div>
           </div>
         </div>
 
@@ -131,7 +148,7 @@ export default function App() {
             </div>
           </div>
         </div>
-       
+
         <div
           id="contact"
           className="row"
