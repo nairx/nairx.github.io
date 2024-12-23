@@ -122,11 +122,10 @@ export default function App() {
                 veritatis aliquid ut eveniet. Et illum odio ut voluptates
                 molestiae? Perspiciatis, ab.
               </p>
-              <a href="https://praveennair.co.in/ecomm-react/" target="_blank">
+              <a href="https://nairx.github.io/ecomm-react/" target="_blank">
                 View Project
               </a>
             </div>
-
             <div className="box">
               <h3>Project 2</h3>
               <p>
@@ -136,7 +135,6 @@ export default function App() {
                 molestiae? Perspiciatis, ab.
               </p>
             </div>
-
             <div className="box">
               <h3>Project 3</h3>
               <p>
@@ -148,7 +146,6 @@ export default function App() {
             </div>
           </div>
         </div>
-
         <div
           id="contact"
           className="row"
@@ -173,7 +170,6 @@ export default function App() {
               </p>
               <button>Send</button>
             </div>
-
             <div className="box">
               <h3>Your/Company Name</h3>
               <p>
