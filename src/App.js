@@ -34,8 +34,8 @@ export default function App() {
         <div className="row" id="home">
           <div className="flex">
             <div className="box">
-              <h1>Full Stack Corporate Trainer</h1>
-              <h3>MERN | MEAN | Java | Python</h3>
+              <h1>MERN Stack Corporate Trainer</h1>
+              <h3>Javascript | Reactjs | Nodejs | MongoDB</h3>
               <p>
                 Over 20 years of experience as Trainer, Application Developer
                 and Project Manager in India and USA. Primarily worked for Wipro
