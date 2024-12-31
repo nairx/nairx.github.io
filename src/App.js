@@ -13,9 +13,9 @@ export default function App() {
               <li>
                 <a href="#home">Home</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#about">About</a>
-              </li>
+              </li> */}
 
               <li>
                 <a href="#clients">Clients</a>
@@ -35,7 +35,7 @@ export default function App() {
           <div className="flex">
             <div className="box">
               <h1>MERN Stack Corporate Trainer</h1>
-              <h3>Javascript | Reactjs | Nodejs | MongoDB</h3>
+              <h3>JavaScript | Reactjs | Nodejs | MongoDB</h3>
               <p>
                 Over 20 years of experience as Trainer, Application Developer
                 and Project Manager in India and USA. Primarily worked for Wipro
@@ -50,7 +50,7 @@ export default function App() {
           </div>
         </div>
 
-        <div
+        {/* <div
           id="about"
           className="row"
           style={{ backgroundColor: "lightcoral" }}
@@ -65,7 +65,7 @@ export default function App() {
           <h2>Skills</h2>
           <h3>Java, Python, Reactjs</h3>
           <p>Display the logo of all the technologies you know.</p>
-        </div>
+        </div> */}
 
         <div
           id="clients"
