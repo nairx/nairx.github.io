@@ -23,9 +23,11 @@ export default function App() {
               <li>
                 <a href="#clients">Clients</a>
               </li>
-              
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
 
-              <li >
+              <li>
                 <a href="#contact">Contact</a>
               </li>
             </ul>
@@ -61,13 +63,15 @@ export default function App() {
             class="c"
             style={{
               display: "flex",
-              justifyContent: "center",flexWrap:"wrap",
+              justifyContent: "center",
+              flexWrap: "wrap",
               margin: "10px",
             }}
           >
             <div>
               <li className="course">
-                <b>Module 1: Introduction to MERN Stack</b><hr></hr>
+                <b>Module 1: Introduction to MERN Stack</b>
+                <hr></hr>
                 Setting up the environment.<br></br>
                 Node.js and npm installation.<br></br>
                 Code editors (e.g., VS Code).<br></br>
@@ -75,43 +79,47 @@ export default function App() {
                 Basics of HTML, CSS and JavaScript
               </li>
               <li className="course">
-                <b>Module 4: Frontend Development</b><hr></hr>
+                <b>Module 4: Frontend Development</b>
+                <hr></hr>
                 Components, Props, and State.<br></br>
                 React hooks (useState, useEffect).<br></br>
                 State management with Context API.<br></br>
                 React Router for navigation.<br></br>
                 Fetching data from APIs using Axios.<br></br>
               </li>
-             
             </div>
             <div>
-            <li className="course">
-                <b>Module 2: MongoDB Basics</b><hr></hr>
+              <li className="course">
+                <b>Module 2: MongoDB Basics</b>
+                <hr></hr>
                 Introduction to NoSQL databases.<br></br>
                 CRUD operations using MongoDB.<br></br>
                 Connecting MongoDB with Node.js.<br></br>
                 Setting up MongoDB Atlas.<br></br>
               </li>
-             
+
               <li className="course">
-                <b>Module 5: Deployment and Best Practices</b><hr></hr>
+                <b>Module 5: Deployment and Best Practices</b>
+                <hr></hr>
                 Deploying the Frontend App.<br></br>
                 Deploying the Backend App.<br></br>
                 Environment variables and security.<br></br>
               </li>
             </div>
             <div>
-            <li className="course">
-                <b>Module 3: Backend Development</b><hr></hr>
+              <li className="course">
+                <b>Module 3: Backend Development</b>
+                <hr></hr>
                 Overview of top backend technologies.<br></br>
                 Introduction to Nodejs.<br></br>
                 Introduction to Express.js and RESTful APIs.<br></br>
                 Building APIs: GET, POST, PUT, DELETE.<br></br>
                 Middleware in Express.js<br></br>
               </li>
-              
+
               <li className="course">
-                <b>Module 6: E-commerce Store Project</b><hr></hr>
+                <b>Module 6: E-commerce Store Project</b>
+                <hr></hr>
                 Product listing<br></br>
                 Cart functionality<br></br>
                 Backend integration.<br></br>
@@ -153,7 +161,6 @@ export default function App() {
           </div>
         </div>
 
-
         <div
           id="clients"
           className="row"
@@ -164,7 +171,8 @@ export default function App() {
             class="c"
             style={{
               display: "flex",
-              justifyContent: "center",flexWrap:"wrap",
+              justifyContent: "center",
+              flexWrap: "wrap",
               margin: "10px",
             }}
           >
@@ -201,41 +209,29 @@ export default function App() {
           </div>
         </div>
 
-        
-        {/* <div
-          id="contact"
-          className="row"
-          style={{ backgroundColor: "lightgoldenrodyellow" }}
-        >
-          <h2>Contact</h2>
+        <div id="gallery" className="row" style={{ backgroundColor: "white" }}>
+          <h2>Gallery</h2>
           <div style={{ display: "flex" }}>
             <div className="box">
-              <p>
-                <input type="text" placeholder="Enter Name" />
-              </p>
-              <p>
-                <input type="email" placeholder="Enter Email" />
-              </p>
-              <p>
-                <textarea
-                  rows="10"
-                  cols="60"
-                  placeholder="Enter message"
-                ></textarea>
-              </p>
-              <button>Send</button>
+              <img className="image" src="1.jpg" />
+              <h3>Student Tribe</h3>
+              <p>Excited to conduct MERN stack training program for the students of Student Tribe.</p>
             </div>
             <div className="box">
+              <img className="image" src="2.jpg" />
+              <h3>GRIET College</h3>
+              <p>Great moments with these amazing MERN Stack learners at GRIET college, Hyderabad.</p>
+            </div>
+            <div className="box">
+              <img className="image" src="4.jpg" />
+              <h3>Mahindra University</h3>
               <p>
-                <b>Address: </b>This is a sample address and can be replaced.
+                It was an honour to begin MERN stack training for
+                Mahindra University students.
               </p>
-              <p>
-                <b>Email Address: </b>sample@email.com
-              </p>
-              
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div id="contact" className="footer">
           <p>Accessibility</p>

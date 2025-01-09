@@ -95,3 +95,10 @@ background-color: white;
 .course {
   height: 160px;
 }
+
+.image {
+  background-size: contain;
+  width: 400px;
+  height: 300px;
+ border-radius: 20px;
+}
