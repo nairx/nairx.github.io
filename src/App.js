@@ -18,13 +18,14 @@ export default function App() {
               </li>
 
               <li>
-                <a href="#clients">Clients</a>
-              </li>
-              <li>
                 <a href="#projects">Projects</a>
               </li>
+              <li>
+                <a href="#clients">Clients</a>
+              </li>
+              
 
-              <li style={{backgroundColor:'white',borderRadius:'10px'}}>
+              <li >
                 <a href="#contact">Contact</a>
               </li>
             </ul>
@@ -119,6 +120,40 @@ export default function App() {
           </div>
         </div>
 
+        <div id="projects" className="row">
+          <h2>Projects</h2>
+          <div style={{ display: "flex" }}>
+            <div className="box" style={{ border: "1px solid silver" }}>
+              <h3>
+                E-commerce |{" "}
+                <a href="https://nairx.github.io/ecomm-react/" target="_blank">
+                  View Demo
+                </a>
+              </h3>
+              <img src="ecomm.jpg" width="400px" />
+            </div>
+            <div className="box">
+              <h3>Project 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+            <div className="box">
+              <h3>Project 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                quia nobis eligendi reiciendis. Esse a possimus eum est
+                veritatis aliquid ut eveniet. Et illum odio ut voluptates
+                molestiae? Perspiciatis, ab.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
         <div
           id="clients"
           className="row"
@@ -166,38 +201,7 @@ export default function App() {
           </div>
         </div>
 
-        <div id="projects" className="row">
-          <h2>Projects</h2>
-          <div style={{ display: "flex" }}>
-            <div className="box" style={{ border: "1px solid silver" }}>
-              <h3>
-                E-commerce |{" "}
-                <a href="https://nairx.github.io/ecomm-react/" target="_blank">
-                  View Demo
-                </a>
-              </h3>
-              <img src="ecomm.jpg" width="400px" />
-            </div>
-            <div className="box">
-              <h3>Project 2</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
-            <div className="box">
-              <h3>Project 3</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
-            </div>
-          </div>
-        </div>
+        
         {/* <div
           id="contact"
           className="row"
