@@ -37,8 +37,8 @@ export default function App() {
         <div className="row" id="home">
           <div className="flex">
             <div className="box">
-              <h1>MERN Stack Corporate Trainer</h1>
-              <h3>MongoDB | Expressjs | Reactjs | Nodejs</h3>
+              <h1>Full Stack Corporate Trainer</h1>
+              <h3>MERN | MEAN | Python | JAVA</h3>
               <p>
                 Over 20 years of experience as Trainer, Application Developer
                 and Project Manager in India and USA. Primarily worked for Wipro
@@ -133,30 +133,27 @@ export default function App() {
           <div style={{ display: "flex" }}>
             <div className="box" style={{ border: "1px solid silver" }}>
               <h3>
-                E-commerce |{" "}
-                <a href="https://nairx.github.io/ecomm-react/" target="_blank">
+                E-commerce | <a href="https://nairx.github.io/ecomm-react/" target="_blank">
                   View Demo
                 </a>
               </h3>
               <img src="ecomm.jpg" width="400px" />
             </div>
-            <div className="box">
-              <h3>Project 2</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
+            <div className="box" style={{ border: "1px solid silver" }}>
+            <h3>
+                Social Media | <a href="https://nairx.github.io/myspace/" target="_blank">
+                  View Demo
+                </a>
+              </h3>
+              <img src="myspace.jpg" width="400px" />
             </div>
-            <div className="box">
-              <h3>Project 3</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                quia nobis eligendi reiciendis. Esse a possimus eum est
-                veritatis aliquid ut eveniet. Et illum odio ut voluptates
-                molestiae? Perspiciatis, ab.
-              </p>
+            <div className="box" style={{ border: "1px solid silver" }}>
+            <h3>
+                Weather App | <a href="https://nairx.github.io/myweatherapp/" target="_blank">
+                  View Demo
+                </a>
+              </h3>
+              <img src="weather.jpg" width="400px" />
             </div>
           </div>
         </div>
