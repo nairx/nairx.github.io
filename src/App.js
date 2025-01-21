@@ -37,7 +37,7 @@ export default function App() {
         <div className="row" id="home">
           <div className="flex">
             <div className="box">
-              <h1>MERN | MEAN | Python | JAVA</h1>
+              <h1 style={{fontSize:'30px'}}>MERN | MEAN | Python | Java | .NET | PHP</h1>
               <h3>Full Stack Corporate Trainer</h3>
               <p>
                 Over 20 years of experience as Trainer, Application Developer
