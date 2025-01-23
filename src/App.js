@@ -38,7 +38,7 @@ export default function App() {
           <div className="flex">
             <div className="box">
               <h1>Full Stack Corporate Trainer</h1>
-              <h3>MERN | MEAN | Java | Python</h3>
+              <h3>MERN | Python | Java | UI/UX</h3>
               <p>
                 Over 20 years of experience as Trainer, Application Developer
                 and Project Manager in India and USA. Primarily worked for Wipro
