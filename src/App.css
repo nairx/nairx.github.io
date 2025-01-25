@@ -46,6 +46,8 @@
   padding: 10px;
   margin: 10px;
   width: 610px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .footer {

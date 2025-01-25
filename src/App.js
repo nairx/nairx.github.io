@@ -13,19 +13,22 @@ export default function App() {
               <li>
                 <a href="#home">Home</a>
               </li>
-              <li>
-                <a href="#course">Courses</a>
-              </li>
-
-              <li>
+              <li> 
                 <a href="#projects">Projects</a>
               </li>
+              {/* <li>
+                <a href="#course">Courses</a>
+              </li> */}
               <li>
                 <a href="#clients">Clients</a>
               </li>
-              <li>
+
+              {/* <li>
                 <a href="#gallery">Gallery</a>
-              </li>
+              </li>*/}
+              
+
+              
 
               <li>
                 <a href="#contact">Contact</a>
@@ -34,9 +37,9 @@ export default function App() {
           </div>
         </div>
 
-        <div className="row" id="home">
+        <div className="row" id="home" style={{backgroundImage:"URL('1.jpg')",backgroundPosition:"center"}}>
           <div className="flex">
-            <div className="box">
+            <div className="box" style={{marginTop:'300px',opacity:'70%'}}>
               <h1>Full Stack Corporate Trainer</h1>
               <h3>MERN | Python | Java | UI/UX</h3>
               <p>
@@ -44,16 +47,16 @@ export default function App() {
                 and Project Manager in India and USA. Primarily worked for Wipro
                 and JP Morgan Chase.
               </p>
-              <button>Register</button>
-              <button>Login</button>
+              {/* <button>Register</button>
+              <button>Login</button> */}
             </div>
-            <div className="box">
+            {/* <div className="box">
               <img src="wallpaper.png" alt="progress" width="100%" />
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div
+        {/* <div
           id="course"
           className="row"
           style={{ backgroundColor: "lightcoral" }}
@@ -126,30 +129,33 @@ export default function App() {
               </li>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div id="projects" className="row">
+<div id="projects" className="row"  style={{ backgroundColor: "white" }}>
           <h2>Projects</h2>
           <div style={{ display: "flex" }}>
             <div className="box" style={{ border: "1px solid silver" }}>
               <h3>
-                E-commerce | <a href="https://nairx.github.io/ecomm-react/" target="_blank">
+                E-commerce |{" "}
+                <a href="https://nairx.github.io/ecomm-react/" target="_blank">
                   View Demo
                 </a>
               </h3>
               <img src="ecomm.jpg" width="400px" />
             </div>
             <div className="box" style={{ border: "1px solid silver" }}>
-            <h3>
-                Social Media | <a href="https://nairx.github.io/myspace/" target="_blank">
+              <h3>
+                Social Media |{" "}
+                <a href="https://nairx.github.io/myspace/" target="_blank">
                   View Demo
                 </a>
               </h3>
               <img src="myspace.jpg" width="400px" />
             </div>
             <div className="box" style={{ border: "1px solid silver" }}>
-            <h3>
-                Weather App | <a href="https://nairx.github.io/myweatherapp/" target="_blank">
+              <h3>
+                Weather App |{" "}
+                <a href="https://nairx.github.io/myweatherapp/" target="_blank">
                   View Demo
                 </a>
               </h3>
@@ -157,6 +163,7 @@ export default function App() {
             </div>
           </div>
         </div>
+
 
         <div
           id="clients"
@@ -206,29 +213,40 @@ export default function App() {
           </div>
         </div>
 
-        <div id="gallery" className="row" style={{ backgroundColor: "white" }}>
+
+        {/* <div id="gallery" className="row" style={{ backgroundColor: "lightcoral" }}>
           <h2>Gallery</h2>
           <div style={{ display: "flex" }}>
             <div className="box">
               <img className="image" src="1.jpg" />
               <h3>Student Tribe</h3>
-              <p>Excited to conduct MERN stack training program for the students of Student Tribe.</p>
+              <p>
+                Excited to conduct MERN stack training program for the students
+                of Student Tribe.
+              </p>
             </div>
             <div className="box">
               <img className="image" src="2.jpg" />
               <h3>GRIET College</h3>
-              <p>Great moments with these amazing MERN Stack learners at GRIET college, Hyderabad.</p>
+              <p>
+                Great moments with these amazing MERN Stack learners at GRIET
+                college, Hyderabad.
+              </p>
             </div>
             <div className="box">
               <img className="image" src="4.jpg" />
               <h3>Mahindra University</h3>
               <p>
-                It was an honour to begin MERN stack training for
-                Mahindra University students.
+                It was an honour to begin MERN stack training for Mahindra
+                University students.
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
+
+
+       
+        
 
         <div id="contact" className="footer">
           <p>Accessibility</p>
