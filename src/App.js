@@ -13,19 +13,20 @@ export default function App() {
               <li>
                 <a href="#home">Home</a>
               </li>
+              <li>
+                <a href="#course">Courses</a>
+              </li>
+          
               <li> 
                 <a href="#projects">Projects</a>
               </li>
-              {/* <li>
-                <a href="#course">Courses</a>
-              </li> */}
-              <li>
+              <li> 
                 <a href="#clients">Clients</a>
               </li>
 
-              {/* <li>
+              <li>
                 <a href="#gallery">Gallery</a>
-              </li>*/}
+              </li>
               
 
               
@@ -37,9 +38,9 @@ export default function App() {
           </div>
         </div>
 
-        <div className="row" id="home" style={{backgroundImage:"URL('1.jpg')",backgroundPosition:"center"}}>
+        <div className="row" id="home">
           <div className="flex">
-            <div className="box" style={{marginTop:'300px',opacity:'70%'}}>
+            <div className="box">
               <h1>Full Stack Corporate Trainer</h1>
               <h3>MERN | Python | Java | UI/UX</h3>
               <p>
@@ -47,16 +48,16 @@ export default function App() {
                 and Project Manager in India and USA. Primarily worked for Wipro
                 and JP Morgan Chase.
               </p>
-              {/* <button>Register</button>
-              <button>Login</button> */}
+              <button>Register</button>
+              <button>Login</button>
             </div>
-            {/* <div className="box">
+            <div className="box">
               <img src="wallpaper.png" alt="progress" width="100%" />
-            </div> */}
+            </div>
           </div>
         </div>
 
-        {/* <div
+        <div
           id="course"
           className="row"
           style={{ backgroundColor: "lightcoral" }}
@@ -129,7 +130,7 @@ export default function App() {
               </li>
             </div>
           </div>
-        </div> */}
+        </div>
 
 <div id="projects" className="row"  style={{ backgroundColor: "white" }}>
           <h2>Projects</h2>
@@ -214,7 +215,7 @@ export default function App() {
         </div>
 
 
-        {/* <div id="gallery" className="row" style={{ backgroundColor: "lightcoral" }}>
+        <div id="gallery" className="row" style={{ backgroundColor: "white" }}>
           <h2>Gallery</h2>
           <div style={{ display: "flex" }}>
             <div className="box">
@@ -242,7 +243,7 @@ export default function App() {
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
 
 
        
@@ -252,7 +253,7 @@ export default function App() {
           <p>Accessibility</p>
           <p>Email: praveen@email.com</p>
           <p> Phone: 123-123-1234</p>
-          <p>Copyright © 2024 Praveen Teachings., All rights reserved.</p>
+          <p>Copyright © 2025 Praveen Teachings., All rights reserved.</p>
           <p>Terms and Conditions | Privacy Policy</p>
         </div>
       </div>
