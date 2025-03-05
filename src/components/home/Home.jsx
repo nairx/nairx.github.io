@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="count">
               <h1>
-                20+<br></br>Clients
+                50+<br></br>Clients
               </h1>
             </div>
           </div>
