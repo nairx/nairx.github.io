@@ -1,0 +1,32 @@
+.App-Header {
+    background-color: #9DBCF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+   }
+  
+.App-Header .box {
+    padding: 10px;
+  }
+  
+.App-Header li {
+    display: inline;
+    padding: 5px;
+    font-size: larger;
+  }
+  
+.App-Header a {
+    text-decoration: none;
+    color: darkblue
+  }
+  
+.App-Header a:hover {
+    text-decoration: underline;
+  }
+
+.App-Header .title {
+    color:darkblue;
+  }
