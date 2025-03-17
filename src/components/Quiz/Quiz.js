@@ -38,7 +38,7 @@ export default function Quiz(props) {
   };
   const nextQ = () => {
     setQ(q+1)
-    document.getElementsByName("ans")[0].reset
+    //document.getElementsByName("ans")[0].reset
   }
   return (
     <div>
