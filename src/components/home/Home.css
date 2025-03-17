@@ -99,13 +99,13 @@
 
 .image {
   background-size: contain;
-  width: 400px;
+  width: 350px;
   height: 250px;
  border-radius: 20px;
 }
 
 .gallery {
-  width:400px;
+  width:350px;
   padding:10px;
   margin:5px;
   color:darkblue

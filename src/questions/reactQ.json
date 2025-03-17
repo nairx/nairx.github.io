@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "topic": "react",
+        "image": "",
+        "question": "This is a sample question and can be replaced. This is a sample question and can be replaced.",
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D",
+        "answer": "a"
+    },
+    {
+        "id": 2,
+        "topic": "react",
+        "image": "",
+        "question": "This is a sample question and can be replaced. This is a sample question and can be replaced.",
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D",
+        "answer": "b"
+    },
+    {
+        "id": 3,
+        "topic": "react",
+        "image": "",
+        "question": "This is a sample question and can be replaced. This is a sample question and can be replaced.",
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D",
+        "answer": "a"
+    }
+]

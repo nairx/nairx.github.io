@@ -1,0 +1,13 @@
+.App-Resources-Row {
+    margin: 10px;
+}
+
+.App-Resources-Row span{
+    padding: 2px;
+    margin: 2px;
+    font-size: 20px;
+    color:white;
+    border-radius: 5px;
+    background-color: darkblue;
+}
+
