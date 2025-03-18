@@ -8,7 +8,7 @@ export default function Resources() {
       <div>
         <span onClick={()=>setTopic("HTML")}>HTML</span>
         <span onClick={()=>setTopic("CSS")}>CSS</span>
-        <span onClick={()=>setTopic("JavaScript")}>JavaScript</span>
+        <span onClick={()=>setTopic("JavaScript")}>JS</span>
         <span onClick={()=>setTopic("Reactjs")}>React</span>
       </div>
       <div>

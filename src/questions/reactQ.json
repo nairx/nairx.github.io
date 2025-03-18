@@ -37,5 +37,18 @@
             "Design platforms"
         ],
         "answer": 2
+    },
+    {
+        "id": 4,
+        "topic": "react",
+        "image": "",
+        "question": "What is the correct syntax to pass properties to a component in React?",
+        "options": [
+            "<Component prop1='value1' />",
+            "<Component[prop1='value1'] />",
+            "Component.prop1 = 'value1'",
+            "<Component = prop1:value1 />"
+        ],
+        "answer": 0
     }
 ]

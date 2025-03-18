@@ -94,20 +94,20 @@ export default function Quiz(props) {
           </b>
         </p>
         <p ref={pa}>
-          <input type="radio" name="ans" onChange={chkAnswer}></input>
-          {questions[q].options[0]}
+          <input type="radio" name="ans" id="lblA" onChange={chkAnswer}></input>
+          <label for="lblA">{questions[q].options[0]}</label>
         </p>
         <p ref={pb}>
-          <input type="radio" name="ans" onChange={chkAnswer}></input>
-          {questions[q].options[1]}
+          <input type="radio" name="ans" id="lblB" onChange={chkAnswer}></input>
+          <label for="lblB">{questions[q].options[1]}</label>
         </p>
         <p ref={pc}>
-          <input type="radio" name="ans" onChange={chkAnswer}></input>
-          {questions[q].options[2]}
+          <input type="radio" name="ans" id="lblC" onChange={chkAnswer}></input>
+          <label for="lblC">{questions[q].options[2]}</label>
         </p>
         <p ref={pd}>
-          <input type="radio" name="ans" onChange={chkAnswer}></input>
-          {questions[q].options[3]}
+          <input type="radio" name="ans" id="lblD" onChange={chkAnswer}></input>
+          <label for="lblD">{questions[q].options[3]}</label>
         </p>
         {q > 0 && <button onClick={() => setQ(q - 1)} className="App-Quiz-Btn">Back</button>}
         {q < questions.length - 1 && (

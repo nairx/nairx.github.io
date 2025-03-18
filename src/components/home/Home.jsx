@@ -37,7 +37,7 @@ export default function Home() {
           <button className="btn">Login</button> */}
         </div>
         <div className="box" style={{ textAlign: "center" }}>
-          <img src="images/mypic.png" alt="progress" />
+          <img src="images/mypic.png" width="350px" alt="progress" />
         </div>
       </div>
 
