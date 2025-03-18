@@ -1,0 +1,19 @@
+.App-Quiz-Num{
+    display: inline-block;
+    border-radius: 2px;
+    margin: 2px;
+    color:darkblue
+}
+
+.App-Quiz-Active{
+    display: inline-block;
+    /* background-color: darkblue; */
+    border-radius: 2px;
+    margin: 2px;
+    /* color:white; */
+    font-weight: bold;
+}
+
+.App-Quiz-Btn {
+    margin: 5px;
+}

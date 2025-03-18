@@ -3,33 +3,39 @@
         "id": 1,
         "topic": "react",
         "image": "",
-        "question": "This is a sample question and can be replaced. This is a sample question and can be replaced.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "answer": "a"
+        "question": "What is React.js?",
+        "options": [
+            "A back-end framework",
+            "A front-end library for building user interfaces",
+            "A database management tool",
+            "A CSS framework"
+        ],
+        "answer": 1
     },
     {
         "id": 2,
         "topic": "react",
         "image": "",
-        "question": "This is a sample question and can be replaced. This is a sample question and can be replaced.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "answer": "b"
+        "question": "What is JSX?",
+        "options": [
+            "A templating language",
+            "A file type in React",
+            "A syntax extension for JavaScript",
+            "A programming language"
+        ],
+        "answer": 2
     },
     {
         "id": 3,
         "topic": "react",
         "image": "",
-        "question": "This is a sample question and can be replaced. This is a sample question and can be replaced.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "answer": "a"
+        "question": "React is mainly used for building __________.",
+        "options": [
+            "Databases",
+            "Connectivity between server and database",
+            "User interfaces",
+            "Design platforms"
+        ],
+        "answer": 2
     }
 ]

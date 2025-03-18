@@ -2,7 +2,7 @@ import "./Home.css";
 import linkedin from "../../linkedin.png";
 export default function Home() {
   return (
-    <>
+    <div>
       <div
         className="App-Home-Row"
         style={{
@@ -136,35 +136,35 @@ export default function Home() {
         </div>
       </div> */}
 
-<div id="gallery" className="App-Home" style={{ backgroundColor: "white" }}>
-          <h2>Gallery</h2>
-          <div className="App-Home-Row">
-            <div className="gallery">
-              <img className="image" src="images/1.jpg" />
-              <h3>Student Tribe</h3>
-              <p>
-                Excited to conduct MERN stack training program for the students
-                of Student Tribe.
-              </p>
-            </div>
-            <div className="gallery">
-              <img className="image" src="images/2.jpg" />
-              <h3>GRIET College</h3>
-              <p>
-                Great moments with these amazing MERN Stack learners at GRIET
-                college, Hyderabad.
-              </p>
-            </div>
-            <div className="gallery">
-              <img className="image" src="images/4.jpg" />
-              <h3>Mahindra University</h3>
-              <p>
-                It was an honour to begin MERN stack training for Mahindra
-                University students.
-              </p>
-            </div>
+      <div className="App-Home">
+        <h1>Gallery</h1>
+        <div className="App-Home-Row">
+          <div className="gallery">
+            <img className="image" src="images/1.jpg" />
+            <h3>Student Tribe</h3>
+            <p>
+              Excited to conduct MERN stack training program for the students of
+              Student Tribe.
+            </p>
+          </div>
+          <div className="gallery">
+            <img className="image" src="images/2.jpg" />
+            <h3>GRIET College</h3>
+            <p>
+              Great moments with these amazing MERN Stack learners at GRIET
+              college, Hyderabad.
+            </p>
+          </div>
+          <div className="gallery">
+            <img className="image" src="images/4.jpg" />
+            <h3>Mahindra University</h3>
+            <p>
+              It was an honour to begin MERN stack training for Mahindra
+              University students.
+            </p>
           </div>
         </div>
-    </>
+      </div>
+    </div>
   );
 }
