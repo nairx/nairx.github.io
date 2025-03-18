@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Resources.css";
 import Quiz from "../Quiz/Quiz";
 export default function Resources() {
-  const [topic, setTopic] = useState("Reactjs");
+  const [topic, setTopic] = useState("HTML");
   return (
     <div className="App-Resources-Row">
       <div>
