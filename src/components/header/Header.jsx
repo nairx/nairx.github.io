@@ -17,7 +17,10 @@ export default function Header() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Resources">Resources</Link>
+            <Link to="quiz">Quiz</Link>
+          </li>
+          <li>
+            <Link to="notes">Notes</Link>
           </li>
           {/* <li>
             <Link to="/User">Member</Link>
