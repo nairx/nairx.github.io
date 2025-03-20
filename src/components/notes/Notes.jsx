@@ -4,7 +4,7 @@ import "./Notes.css";
 export default function Notes() {
   const [slide, setSlide] = useState(1);
   const [topic, setTopic] = useState("html");
-  let url = topic + "/Slide" + slide + ".PNG";
+  let url = "/" + topic + "/Slide" + slide + ".PNG";
   useEffect(() => {
     setSlide(1);
   }, [topic]);
