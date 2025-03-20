@@ -1,0 +1,37 @@
+.App-Notes-Box {
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.App-Notes-Img {
+    border: 1px solid gray;
+}
+
+.App-Notes-Btn {
+    margin: 5px;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.App-Notes-Box span {
+    margin: 5px
+}
+
+.App-Notes-Slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-Notes-Active{
+    margin: 5px;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+}
