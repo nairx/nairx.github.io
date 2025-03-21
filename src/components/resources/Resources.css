@@ -2,12 +2,12 @@
     margin: 10px;
 }
 
-.App-Resources-Row span{
-    padding: 2px;
-    margin: 2px;
+.App-Resources-Topic{
+    padding: 50px;
+    margin: 50px;
     font-size: 20px;
-    color:white;
     border-radius: 5px;
-    background-color: darkblue;
+    border: 1px solid gray;
+    font-size: 30px;
 }
 

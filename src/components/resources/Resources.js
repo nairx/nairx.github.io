@@ -1,19 +1,14 @@
 import React, { useState } from "react";
 import "./Resources.css";
-import Quiz from "../Quiz/Quiz";
+import { Link } from "react-router-dom";
 export default function Resources() {
-  const [topic, setTopic] = useState("HTML");
   return (
     <div className="App-Resources-Row">
-      <div>
-        <span onClick={()=>setTopic("HTML")}>HTML</span>
-        <span onClick={()=>setTopic("CSS")}>CSS</span>
-        <span onClick={()=>setTopic("JavaScript")}>JS</span>
-        <span onClick={()=>setTopic("Reactjs")}>React</span>
+      <div className="App-Resources-Topic">
+        <Link to="../quiz">Quiz</Link>
       </div>
-      <div>
-        <h3>{topic} Quiz</h3>
-        <Quiz topic={topic} />
+      <div className="App-Resources-Topic">
+        <Link to="../notes">Notes</Link>
       </div>
     </div>
   );
