@@ -13,7 +13,7 @@
     padding: 10px;
     background-color: darkblue;
     color: white;
-    width: 100px;
+    width: 30px;
     border-radius: 20px;
 }
 
@@ -21,17 +21,32 @@
     margin: 5px
 }
 
-.App-Notes-Slide{
+.App-Notes-Slide {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.App-Notes-Active{
+.App-Notes-Active {
     margin: 5px;
     padding: 10px;
     background-color: darkblue;
     color: white;
     width: 100px;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.App-Notes-Pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+}
+
+.App-Notes-Pages div {
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid gray;
+
 }
