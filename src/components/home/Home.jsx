@@ -26,7 +26,7 @@ export default function Home() {
               style={{ width: "100px" }}
             />
           </a>
-          <a href="https://www.youtube.com/@praveen-nair">
+          <a href="https://www.youtube.com/@praveen-nair/playlists">
             <img
               src="../../images/youtube.png"
               className="lnkBtn"
@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="App-Home">
+      <div className="App-Home" style={{ backgroundColor: "white" }}>
         <h1>Gallery</h1>
         <div className="App-Home-Row">
           <div className="gallery">
@@ -163,6 +163,64 @@ export default function Home() {
               University students.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="App-Home">
+        <div className="section" style={{ backgroundColor: "#eeeeee" }}>
+          <h1>Frequently Asked Questions</h1>
+          <details className="App-Faq">
+            <summary>
+              <b>What is Full-Stack Development?</b>
+            </summary>
+            <p>
+              Full-stack development involves creating the entire application,
+              from the user-facing interface to the underlying infrastructure.
+              It combines front-end (client-side) and back-end (server-side)
+              development skills.
+            </p>
+          </details>
+
+          <details className="App-Faq">
+            <summary>
+              <b>What Skills are Covered in a Full Stack Course?</b>
+            </summary>
+            <p>
+              Front-end: HTML, CSS, JavaScript, and frameworks like React or
+              Angular.<br></br>
+              Back-end: Server-side languages like Node.js, Python, or Java, and
+              databases like MongoDB or MySQL.<br></br>
+              Other important skills: Version control (Git), APIs, and cloud
+              platforms (AWS, Azure, etc.).<br></br>
+            </p>
+          </details>
+          <details className="App-Faq">
+            <summary>
+              <b>Why is Full-Stack Development in Demand?</b>
+            </summary>
+            <p>
+              Companies often seek developers who can manage both front-end and
+              back-end development, ensuring seamless integration between user
+              interfaces and server-side operations.
+            </p>
+          </details>
+          <details className="App-Faq">
+            <summary>
+              <b>How Long Does it Take to Become a Full Stack Developer?</b>
+            </summary>
+            <p>
+              With prior coding experience, you might be able to transition to
+              full-stack in 3-6 months of full-time study. For those new to
+              coding, it could take longer, potentially 6-12 months or more.
+            </p>
+          </details>
+          <details className="App-Faq">
+            <summary>
+              <b>What are the salary expectations for a full stack developer in India?</b>
+            </summary>
+            <p>
+            The average salary for a full-stack developer in India is ₹7,00,000 per year.
+            </p>
+          </details>
         </div>
       </div>
     </div>

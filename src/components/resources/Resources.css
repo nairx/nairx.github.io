@@ -1,5 +1,7 @@
 .App-Resources-Row {
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .App-Resources-Topic{

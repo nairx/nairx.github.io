@@ -44,7 +44,7 @@ export default function Notes() {
       <div className="App-Notes-Pages">
         <button onClick={() => setSlide(slide - 20)}>&lt;&lt;</button>
         {Array.from(
-          { length: slide < page[topic] - 20 ? 20 : page[topic] - slide },
+          { length: slide < page[topic] - 20 ? 20 : page[topic] - slide+1 },
           (_, v) => (
             <div onClick={()=>setSlide(v+slide)}>{v + slide}</div>
           )

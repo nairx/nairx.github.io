@@ -75,7 +75,7 @@ export default function Quiz() {
   return (
     <div className="App-container">
       <div className="App-Resources-Row">
-        <div className="App-Topics">
+        {/* <div className="App-Topics"> */}
           <li
             className={topic === "HTML" && "App-Topic-Active"}
             onClick={() => setTopic("HTML")}
@@ -101,9 +101,6 @@ export default function Quiz() {
             React
           </li>
         </div>
-        {/* <div>
-          <h3>{topic} Quiz</h3>
-        </div> */}
         <div className="App-Q-Num">
           {questions &&
             questions.map((value, index) => (
@@ -118,7 +115,7 @@ export default function Quiz() {
               </div>
             ))}
         </div>
-      </div>
+      {/* </div> */}
       <div className="App-Question">
         <p>
           <b>

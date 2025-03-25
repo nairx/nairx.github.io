@@ -1,38 +1,31 @@
-.App-Quiz-Num{
+.App-IQ-Num{
     display: inline-block;
     border-radius: 2px;
     margin: 2px;
     color:darkblue
 }
-
-.App-Quiz-Active{
+.App-IQ-Active{
     display: inline-block;
-    /* background-color: darkblue; */
     border-radius: 2px;
     margin: 2px;
-    /* color:white; */
     font-weight: bold;
 }
-
-.App-Quiz-Btn {
+.App-IQ-Btn {
     margin: 5px;
 }
-
-.App-Resources-Row {
+.App-IQ-Row {
     margin: 10px;
+    text-align: center;
 }
-
-.App-Resources-Row li{
+.App-IQ-Row li{
     padding: 2px;
     display: inline-block;
     margin: 2px;
     font-size: 20px;
-    /* color:white; */
     border-radius: 5px;
-    /* background-color: darkblue; */
+    
 }
-
-.App-container{
+.App-IQ-Container{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -40,23 +33,19 @@
     width: 900px;
 
 }
-
-.App-Question{
+.App-IQ-Question{
     border: 1px solid gray;
     border-radius: 10px;
     padding: 10px;
 }
-
-.App-Topic-Active {
+.App-IQ-Active {
     background-color: darkblue;
     color:white
 }
-
-.App-Q-Num{
-    text-align: center;
+.App-IQ-Num{
+    margin: 5px;
 }
-
-.App-Q-Num div{
+.App-IQ-Num div{
     margin: 5px;
     padding: 5px;
     border: 1px solid gray;
