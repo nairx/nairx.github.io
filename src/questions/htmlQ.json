@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "topic": "html",
+        "image": "",
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hyperlinks and Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyper Text Markup Language",
+            "Hyperlinks Tool Markup Language"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 2,
+        "topic": "html",
+        "image": "",
+        "question": "Which HTML element is used to define the largest heading?",
+        "options": [
+            "<h6>",
+            "<head>",
+            "<h1>",
+            "<h2>"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 3,
+        "topic": "html",
+        "image": "",
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": [
+            "<br>",
+            "<lb>",
+            "<break>",
+            "<newline>"
+        ],
+        "answer": 0
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "topic": "js",
+        "image": "",
+        "question": "Which of the following is not a valid JavaScript data type?",
+        "options": [
+            "String",
+            "Boolean",
+            "Float",
+            "Undefined"
+        ],
+        "answer": 2
+    },
+    {
+        "id": 2,
+        "topic": "js",
+        "image": "",
+        "question": "How do you declare a JavaScript variable?",
+        "options": [
+            "variable x",
+            "var x",
+            "v x",
+            "x = var"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 3,
+        "topic": "js",
+        "image": "",
+        "question": "Which of the following is a correct way to define a function in JavaScript?",
+        "options": [
+            "function = myFunc()",
+            "function: myFunc()",
+            "function myFunc()",
+            "func myFunc()"
+        ],
+        "answer": 2
+    }
+]
