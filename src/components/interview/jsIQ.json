@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "topic": "js",
+        "image": "",
+        "question": "Which of the following is not a valid JavaScript data type?",
+        "answer": "testing"
+    }
+]

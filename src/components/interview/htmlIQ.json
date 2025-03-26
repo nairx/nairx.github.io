@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "topic": "html",
+        "image": "",
+        "question": "What is HTML?",
+        "answer": "HTML (HyperText Markup Language) is the standard language used to create webpages. It provides structure to web content using elements such as headings, paragraphs, links, and images."
+    },
+    {
+        "id": 2,
+        "topic": "html",
+        "image": "",
+        "question": "What are tags in HTML?",
+        "answer": "Tags are elements enclosed within angle brackets (<>) that define content in an HTML document. Example: <p>This is a paragraph.</p>. Tags usually come in pairs (<tag> and </tag>)."
+    },
+    {
+        "id": 3,
+        "topic": "html",
+        "image": "",
+        "question": "What are void (self-closing) elements in HTML? Give examples.",
+        "answer": "Void elements do not have closing tags. Examples:<br> (line break)<img> (image)<hr> (horizontal line)<meta> (metadata)"
+    }
+]

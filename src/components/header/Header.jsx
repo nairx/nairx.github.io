@@ -18,14 +18,14 @@ export default function Header() {
           </li>
           {/* <li>
             <Link to="quiz">Quiz</Link>
-          </li>
+          </li>*/}
           <li>
             <Link to="notes">Notes</Link>
-          </li> */}
-          <li>
+          </li> 
+           {/*<li>
             <Link to="resources">Resources</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/User">Member</Link>
           </li> */}
         </ul>
