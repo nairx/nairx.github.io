@@ -20,7 +20,7 @@ export default function Header() {
             <Link to="quiz">Quiz</Link>
           </li>*/}
           <li>
-            <Link to="notes">Notes</Link>
+            <Link to="notes">Resources</Link>
           </li> 
            {/*<li>
             <Link to="resources">Resources</Link>
