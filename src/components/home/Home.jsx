@@ -38,7 +38,7 @@ export default function Home() {
             <img
               src="../../images/github.png"
               className="lnkBtn"
-              style={{ width: "110px" }}
+              style={{ width: "115px" }}
             />
           </a>
           {/* <button className="btn">Register</button>
@@ -145,6 +145,7 @@ export default function Home() {
       </div> */}
 
       <div className="App-Home" style={{ backgroundColor: "white" }}>
+      <div className="section">
         <h1>Gallery</h1>
         <div className="App-Home-Row">
           <div className="gallery">
@@ -170,6 +171,7 @@ export default function Home() {
               It was an honour to begin MERN stack training for Mahindra
               University students.
             </p>
+          </div>
           </div>
         </div>
       </div>

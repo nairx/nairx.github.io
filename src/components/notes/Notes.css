@@ -1,7 +1,10 @@
 .App-Notes-Box {
     margin: 10px;
-    text-align: center;
+    /* text-align: center; */
     padding: 5px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .App-Notes-Img {
@@ -37,6 +40,15 @@
     border-radius: 10px;
 }
 
+.App-Notes-Default{
+    margin: 5px;
+    padding: 10px;
+    background-color:  #9DBCF7;
+    color: darkblue;
+    width: 100px;
+    border-radius: 10px;
+}
+
 .App-Notes-Pages {
     display: flex;
     flex-wrap: wrap;
@@ -51,3 +63,4 @@
     border: 1px solid gray;
 
 }
+
