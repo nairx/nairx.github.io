@@ -9,6 +9,7 @@ export default function Home() {
           backgroundColor: "white",
           paddingBottom: "0px",
           marginBottom: "0px",
+          
         }}
       >
         <div className="box">
@@ -36,7 +37,7 @@ export default function Home() {
           {/* <button className="btn">Register</button>
           <button className="btn">Login</button> */}
         </div>
-        <div className="box" style={{ textAlign: "center" }}>
+        <div className="box" style={{width:'500px',textAlign:'end'}}>
           <img src="images/mypic.png" width="350px" alt="progress" />
         </div>
       </div>
