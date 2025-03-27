@@ -27,7 +27,7 @@ export default function Home() {
               style={{ width: "100px" }}
             />
           </a>
-          <a href="https://www.youtube.com/@praveen-nair/playlists">
+          <a href="https://www.youtube.com/@praveen-nair/featured">
             <img
               src="../../images/youtube.png"
               className="lnkBtn"
