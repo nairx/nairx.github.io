@@ -21,22 +21,22 @@ export default function Resources() {
 
         <div className="App-Resources-Topic">
           <Link to="../html">
-            <img src="/html/Slide1.PNG" width="400px"></img>
+            <img src="/html/Slide1.PNG" width="350px"></img>
           </Link>
         </div>
         <div className="App-Resources-Topic">
           <Link to="../css">
-            <img src="/css/Slide1.PNG" width="400px"></img>
+            <img src="/css/Slide1.PNG" width="350px"></img>
           </Link>
         </div>
         <div className="App-Resources-Topic">
           <Link to="../js">
-            <img src="/js/Slide1.PNG" width="400px"></img>
+            <img src="/js/Slide1.PNG" width="350px"></img>
           </Link>
         </div>
         <div className="App-Resources-Topic">
           <Link to="../react">
-            <img src="/react/Slide1.PNG" width="400px" />
+            <img src="/react/Slide1.PNG" width="350px" />
           </Link>
         </div>
         {/* <div className="App-Resources-Topic">
