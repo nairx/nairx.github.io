@@ -1,13 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { useState } from "react";
 import "./Quiz.css";
-import reactQ from "../../questions/reactQ.json";
-import htmlQ from "../../questions/htmlQ.json";
-import cssQ from "../../questions/cssQ.json";
-import jsQ from "../../questions/jsQ.json";
-export default function Quiz() {
+import reactQ from "./reactQ.json";
+import htmlQ from "./htmlQ.json";
+import cssQ from "./cssQ.json";
+import jsQ from "./jsQ.json";
+export default function Quiz(props) {
   const [q, setQ] = useState(0);
-  const [topic, setTopic] = useState("HTML");
+  const [topic, setTopic] = useState(props.topic);
+  // const topic = props.topic
   const pa = useRef(null);
   const pb = useRef(null);
   const pc = useRef(null);
@@ -68,53 +69,52 @@ export default function Quiz() {
   }, [q]);
 
   useEffect(() => {
-    refreshQ();
     setQ(0);
+    refreshQ();
   }, [topic]);
 
   return (
     <div className="App-container">
-      <div className="App-Resources-Row">
-        {/* <div className="App-Topics"> */}
-          <li
-            className={topic === "HTML" && "App-Topic-Active"}
-            onClick={() => setTopic("HTML")}
-          >
-            HTML
-          </li>
-          <li
-            className={topic === "CSS" && "App-Topic-Active"}
-            onClick={() => setTopic("CSS")}
-          >
-            CSS
-          </li>
-          <li
-            className={topic === "JavaScript" && "App-Topic-Active"}
-            onClick={() => setTopic("JavaScript")}
-          >
-            JavaScript
-          </li>
-          <li
-            className={topic === "Reactjs" && "App-Topic-Active"}
-            onClick={() => setTopic("Reactjs")}
-          >
-            React
-          </li>
-        </div>
-        <div className="App-Q-Num">
-          {questions &&
-            questions.map((value, index) => (
-              <div
-                key={index}
-                onClick={() => setQ(value.id - 1)}
-                className={
-                  value.id - 1 === q ? "App-Quiz-Active" : "App-Quiz-Num"
-                }
-              >
-                {value.id}
-              </div>
-            ))}
-        </div>
+      {/* <div className="App-Resources-Row">
+        <li
+          className={topic === "HTML" && "App-Topic-Active"}
+          onClick={() => setTopic("HTML")}
+        >
+          HTML
+        </li>
+        <li
+          className={topic === "CSS" && "App-Topic-Active"}
+          onClick={() => setTopic("CSS")}
+        >
+          CSS
+        </li>
+        <li
+          className={topic === "JavaScript" && "App-Topic-Active"}
+          onClick={() => setTopic("JavaScript")}
+        >
+          JavaScript
+        </li>
+        <li
+          className={topic === "Reactjs" && "App-Topic-Active"}
+          onClick={() => setTopic("Reactjs")}
+        >
+          React
+        </li>
+      </div> */}
+      <div className="App-Q-Num">
+        {questions &&
+          questions.map((value, index) => (
+            <div
+              key={index}
+              onClick={() => setQ(value.id - 1)}
+              className={
+                value.id - 1 === q ? "App-Quiz-Active" : "App-Quiz-Num"
+              }
+            >
+              {value.id}
+            </div>
+          ))}
+      </div>
       {/* </div> */}
       <div className="App-Question">
         <p>

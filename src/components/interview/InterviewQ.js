@@ -5,9 +5,9 @@ import htmlIQ from "./htmlIQ.json";
 import cssIQ from "./cssIQ.json";
 import jsIQ from "./jsIQ.json";
 import reactIQ from "./reactIQ.json";
-export default function InterviewQ() {
+export default function InterviewQ(props) {
   const [q, setQ] = useState(0);
-  const [topic, setTopic] = useState("HTML");
+  const [topic, setTopic] = useState(props.topic);
   const pa = useRef(null);
   const btn = useRef(null);
   let questions;
@@ -34,7 +34,7 @@ export default function InterviewQ() {
   };
   return (
     <div className="App-IQ-Container">
-      <div className="App-IQ-Row">
+      {/* <div className="App-IQ-Row">
         <li
           className={topic === "HTML" && "App-IQ-Active"}
           onClick={() => setTopic("HTML")}
@@ -59,7 +59,7 @@ export default function InterviewQ() {
         >
           React
         </li>
-      </div>
+      </div> */}
       <div className="App-IQ-Row">
         {questions &&
           questions.map((value, index) => (

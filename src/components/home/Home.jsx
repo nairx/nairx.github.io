@@ -9,11 +9,10 @@ export default function Home() {
           backgroundColor: "white",
           paddingBottom: "0px",
           marginBottom: "0px",
-          
         }}
       >
         <div className="box">
-          <h1>Full Stack Corporate Trainer</h1>
+          <h1 className="App-Home-Title">Full Stack Corporate Trainer</h1>
           <h3>MERN | Python | Java | Nextjs</h3>
           <p>
             Over 20 years of experience as Trainer, Application Developer and
@@ -44,7 +43,7 @@ export default function Home() {
           {/* <button className="btn">Register</button>
           <button className="btn">Login</button> */}
         </div>
-        <div className="box" style={{width:'500px',textAlign:'end'}}>
+        <div className="box" style={{ width: "500px", textAlign: "center" }}>
           <img src="images/mypic.png" width="350px" alt="progress" />
         </div>
       </div>
@@ -145,33 +144,33 @@ export default function Home() {
       </div> */}
 
       <div className="App-Home" style={{ backgroundColor: "white" }}>
-      <div className="section">
-        <h1>Gallery</h1>
-        <div className="App-Home-Row">
-          <div className="gallery">
-            <img className="image" src="images/1.jpg" />
-            <h3>Student Tribe</h3>
-            <p>
-              Excited to conduct MERN stack training program for the students of
-              Student Tribe.
-            </p>
-          </div>
-          <div className="gallery">
-            <img className="image" src="images/2.jpg" />
-            <h3>GRIET College</h3>
-            <p>
-              Great moments with these amazing MERN Stack learners at GRIET
-              college, Hyderabad.
-            </p>
-          </div>
-          <div className="gallery">
-            <img className="image" src="images/4.jpg" />
-            <h3>Mahindra University</h3>
-            <p>
-              It was an honour to begin MERN stack training for Mahindra
-              University students.
-            </p>
-          </div>
+        <div className="section">
+          <h1>Gallery</h1>
+          <div className="App-Home-Row">
+            <div className="gallery">
+              <img className="image" src="images/1.jpg" />
+              <h3>Student Tribe</h3>
+              <p>
+                Excited to conduct MERN stack training program for the students
+                of Student Tribe.
+              </p>
+            </div>
+            <div className="gallery">
+              <img className="image" src="images/2.jpg" />
+              <h3>GRIET College</h3>
+              <p>
+                Great moments with these amazing MERN Stack learners at GRIET
+                college, Hyderabad.
+              </p>
+            </div>
+            <div className="gallery">
+              <img className="image" src="images/4.jpg" />
+              <h3>Mahindra University</h3>
+              <p>
+                It was an honour to begin MERN stack training for Mahindra
+                University students.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -225,10 +224,14 @@ export default function Home() {
           </details>
           <details className="App-Faq">
             <summary>
-              <b>What are the salary expectations for a full stack developer in India?</b>
+              <b>
+                What are the salary expectations for a full stack developer in
+                India?
+              </b>
             </summary>
             <p>
-            The average salary for a full-stack developer in India is ₹7,00,000 per year.
+              The average salary for a full-stack developer in India is
+              ₹7,00,000 per year.
             </p>
           </details>
         </div>

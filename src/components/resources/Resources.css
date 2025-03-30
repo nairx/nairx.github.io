@@ -1,15 +1,22 @@
 .App-Resources-Row {
-    margin: 10px;
+    margin: 5px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .App-Resources-Topic{
-    padding: 50px;
-    margin: 50px;
+    padding: 5px;
+    margin: 5px;
+    /* width: 200px; */
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
     border: 1px solid gray;
     font-size: 30px;
 }
 
+.App-Resources-Title {
+    text-align: center;
+    color:darkblue
+}

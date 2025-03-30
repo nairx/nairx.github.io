@@ -18,7 +18,7 @@
   width: 610px;
   background-color: white;
   border-radius: 20px;
-  color:darkblue
+  color:darkblue;
 }
 
 
@@ -112,17 +112,27 @@
 }
 
 .App-Faq{
-  text-align: start;
-  margin-left:100px ;
-  margin-right:100px ;
   font-size: 16px;
   background-color: white;
   border-radius: 20px;
+  margin: 5px;
  
 }
 
 .App-Faq Summary,details{
+  text-align: start;
   margin: 5px;
   padding: 5px;
 }
 
+@media screen and (min-width: 700px) {
+.App-Home-Title {
+ font-size: 40px;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .App-Home-Title {
+   font-size: 25px;
+  }
+  }

@@ -1,11 +1,11 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Notes.css";
-export default function Notes() {
+export default function Notes(props) {
   const [slide, setSlide] = useState(1);
-  const [topic, setTopic] = useState("html");
+  const [topic, setTopic] = useState(props.topic);
   let page = { html: 47, css: 37, js: 74, react: 35 };
-  let url = topic + "/Slide" + slide + ".PNG";
+  let url = "../" + topic + "/Slide" + slide + ".PNG";
   useEffect(() => {
     setSlide(1);
   }, [topic]);
@@ -14,7 +14,7 @@ export default function Notes() {
   }, [slide]);
   return (
     <div className="App-Notes-Box">
-      <div style={{margin:'10px'}}>
+      {/* <div style={{margin:'10px'}}>
   
           <p 
             onClick={() => setTopic("html")}
@@ -44,8 +44,8 @@ export default function Notes() {
             Reactjs
           </p>
        
-      </div>
-      <div style={{margin:'10px'}}>
+      </div> */}
+      <div >
         {/* <div className="App-Notes-Pages">
           <button onClick={() => setSlide(slide - 20)}>&lt;&lt;</button>
           {Array.from(
@@ -59,7 +59,7 @@ export default function Notes() {
 
         <div className="App-Notes-Slide">
           <img className="App-Notes-Img" src={url} width={1000}></img>
-          <h3 style={{ position: "absolute", top: "80px" }}>
+          <h3 style={{ position: "absolute", top: "100px" }}>
             {" "}
             <button
               className="App-Notes-Btn"

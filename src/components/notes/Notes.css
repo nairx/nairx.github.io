@@ -1,5 +1,5 @@
 .App-Notes-Box {
-    margin: 10px;
+    margin: 1px;
     /* text-align: center; */
     padding: 5px;
     display:flex;
@@ -10,6 +10,7 @@
 .App-Notes-Img {
     border: 1px solid gray;
     border-radius: 20px;
+    width: 85%;
 }
 
 .App-Notes-Btn {
