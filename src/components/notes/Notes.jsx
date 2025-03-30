@@ -45,7 +45,7 @@ export default function Notes(props) {
           </p>
        
       </div> */}
-      <div >
+      <div>
         {/* <div className="App-Notes-Pages">
           <button onClick={() => setSlide(slide - 20)}>&lt;&lt;</button>
           {Array.from(
@@ -59,8 +59,7 @@ export default function Notes(props) {
 
         <div className="App-Notes-Slide">
           <img className="App-Notes-Img" src={url} width={1000}></img>
-          <h3 style={{ position: "absolute", top: "100px" }}>
-            {" "}
+          <h3 style={{ position: "absolute", top: "80px" }}>
             <button
               className="App-Notes-Btn"
               onClick={() => setSlide(slide - 1)}
