@@ -59,7 +59,7 @@ export default function Notes(props) {
 
         <div className="App-Notes-Slide">
           <img className="App-Notes-Img" src={url} width={1000}></img>
-          <h3 style={{ position: "absolute", top: "80px" }}>
+          <h3 style={{ position: "absolute", top: "100px" }}>
             <button
               className="App-Notes-Btn"
               onClick={() => setSlide(slide - 1)}
