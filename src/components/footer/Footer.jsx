@@ -5,9 +5,8 @@ export default function Footer() {
       <p>
         {/* Accessibility<br></br> */}
         {/* Email: praveannair@gmail.com<br></br> */}
-        © 2025 Praveen Nair, All rights
-        reserved.<br></br>
-        Terms and Conditions | Privacy Policy
+        © 2025 Praveen Nair. All rights
+        reserved. Privacy Policy.
       </p>
     </div>
   );
