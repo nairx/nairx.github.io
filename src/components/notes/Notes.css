@@ -1,7 +1,7 @@
 .App-Notes-Box {
     margin: 1px;
     /* text-align: center; */
-    padding: 5px;
+    padding: 1px;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -10,7 +10,7 @@
 .App-Notes-Img {
     border: 1px solid gray;
     border-radius: 20px;
-    width: 80%;
+    width: 90%;
 }
 
 .App-Notes-Btn {
@@ -55,7 +55,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    width: 1200px;
+    /* width: 1200px; */
 }
 
 .App-Notes-Pages div {

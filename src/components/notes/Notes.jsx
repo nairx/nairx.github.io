@@ -13,8 +13,8 @@ export default function Notes(props) {
     (slide > page[topic] || slide < 1) && setSlide(1);
   }, [slide]);
   return (
-    <div className="App-Notes-Box">
-      {/* <div style={{margin:'10px'}}>
+    <div >
+      {/* <div className="App-Notes-Box" style={{margin:'10px'}}>
   
           <p 
             onClick={() => setTopic("html")}
@@ -46,20 +46,20 @@ export default function Notes(props) {
        
       </div> */}
       <div>
-        {/* <div className="App-Notes-Pages">
-          <button onClick={() => setSlide(slide - 20)}>&lt;&lt;</button>
+        <div className="App-Notes-Pages">
+          <button onClick={() => setSlide(slide - 10)}>&lt;&lt;</button>
           {Array.from(
-            { length: slide < page[topic] - 20 ? 20 : page[topic] - slide + 1 },
+            { length: slide < page[topic] - 10 ? 10 : page[topic] - slide + 1 },
             (_, v) => (
               <div onClick={() => setSlide(v + slide)}>{v + slide}</div>
             )
           )}
           <button onClick={() => setSlide(slide + 20)}>&gt;&gt;</button>
-        </div> */}
+        </div>
 
         <div className="App-Notes-Slide">
           <img className="App-Notes-Img" src={url} width={1000}></img>
-          <h3 style={{ position: "absolute", top: "100px" }}>
+          <h3 style={{ position: "absolute", top: "85px" }}>
             <button
               className="App-Notes-Btn"
               onClick={() => setSlide(slide - 1)}

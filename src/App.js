@@ -22,6 +22,11 @@ function App() {
             <Route index element={<Home />}></Route>
             <Route path="resources" element={<Resources />}></Route>
             <Route path="user" element={<User />}></Route>
+            <Route path="notes" element={<Notes topic="html" />}></Route>
+            <Route path="htmlnotes" element={<Notes topic="html" />}></Route>
+            <Route path="cssnotes" element={<Notes topic="css" />}></Route>
+            <Route path="jsnotes" element={<Notes topic="js" />}></Route>
+            <Route path="reactnotes" element={<Notes topic="react" />}></Route>
             <Route path="html" element={<Html />}>
               <Route index element={<Notes topic="html" />}></Route>
               <Route path="htmlnotes" element={<Notes topic="html" />}></Route>

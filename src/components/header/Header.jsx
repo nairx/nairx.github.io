@@ -23,6 +23,7 @@ export default function Header() {
          <li>
             <Link to="resources">Courses</Link>
           </li>
+  
            {/* <li>
             <Link to="/User">Member</Link>
           </li> */}
