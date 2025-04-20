@@ -13,9 +13,9 @@ export default function Header() {
       </div>
       <nav>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
+         
+            <Link to="/"> <li>Home</li></Link>
+          
           {/* <li>
             <Link to="quiz">Quiz</Link>
           </li>*/}
